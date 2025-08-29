@@ -248,7 +248,7 @@ The app shows a **preview** of what it read from `data.py` (pots, team→country
 
 ## License
 
-Add your preferred license here (e.g., MIT).
+This program is under the MIT license.
 
 ---
 
