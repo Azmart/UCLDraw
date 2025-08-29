@@ -1,0 +1,103 @@
+# 1) Participants by UEFA member country (dictionary for valid Python)
+participants_by_country = {
+    "England": [
+        "Manchester City FC",
+        "Liverpool FC",
+        "Chelsea FC",
+        "Arsenal FC",
+        "Tottenham Hotspur FC",
+        "Newcastle United FC",
+    ],
+    "Spain": [
+        "Real Madrid CF",
+        "FC Barcelona",
+        "Club Atlético de Madrid",
+        "Villarreal CF",
+        "Athletic Club",
+    ],
+    "Germany": [
+        "FC Bayern München",
+        "Borussia Dortmund",
+        "Bayer 04 Leverkusen",
+        "Eintracht Frankfurt",
+    ],
+    "Italy": [
+        "FC Internazionale Milano",
+        "Atalanta BC",
+        "Juventus FC",
+        "SSC Napoli",
+    ],
+    "France": [
+        "Paris Saint-Germain",
+        "Olympique de Marseille",
+        "AS Monaco FC",
+    ],
+    "Portugal": [
+        "SL Benfica",
+        "Sporting Clube de Portugal",
+    ],
+    "Netherlands": [
+        "PSV Eindhoven",
+        "AFC Ajax",
+    ],
+    "Belgium": [
+        "Club Brugge KV",
+        "Royale Union Saint-Gilloise",
+    ],
+    "Denmark": ["FC København"],
+    "Greece": ["Olympiacos FC"],
+    "Czech Republic": ["SK Slavia Praha"],
+    "Norway": ["FK Bodø/Glimt"],
+    "Turkey": ["Galatasaray SK"],
+    "Azerbaijan": ["Qarabağ FK"],
+    "Cyprus": ["Pafos FC"],
+    "Kazakhstan": ["FC Kairat"],
+}
+
+# 2) Pots for the 2025/26 league phase draw (based on UEFA club coefficients)
+pots = {
+    1: [
+        "Paris Saint-Germain",
+        "Real Madrid CF",
+        "Manchester City FC",
+        "FC Bayern München",
+        "Liverpool FC",
+        "FC Internazionale Milano",
+        "Chelsea FC",
+        "Borussia Dortmund",
+        "FC Barcelona",
+    ],
+    2: [
+        "Arsenal FC",
+        "Bayer 04 Leverkusen",
+        "Club Atlético de Madrid",
+        "SL Benfica",
+        "Atalanta BC",
+        "Villarreal CF",
+        "Juventus FC",
+        "Eintracht Frankfurt",
+        "Club Brugge KV",
+    ],
+    3: [
+        "Tottenham Hotspur FC",
+        "PSV Eindhoven",
+        "AFC Ajax",
+        "SSC Napoli",
+        "Sporting Clube de Portugal",
+        "Olympiacos FC",
+        "SK Slavia Praha",
+        "FK Bodø/Glimt",
+        "Olympique de Marseille",
+    ],
+    4: [
+        "FC København",
+        "AS Monaco FC",
+        "Galatasaray SK",
+        "Royale Union Saint-Gilloise",
+        "Qarabağ FK",
+        "Athletic Club",
+        "Newcastle United FC",
+        "Pafos FC",
+        "FC Kairat",
+    ],
+}
